@@ -1,0 +1,163 @@
+.lista-consulta {
+  padding: 0 2.1rem;
+}
+.lista-consulta__hoje {
+  margin-bottom: 1rem;
+}
+.lista-consulta__amanha {
+  margin-bottom: 1rem;
+}
+
+.lista-consulta__titulo {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--preto);
+  margin-bottom: 1rem;
+}
+.lista-consulta__card {
+  background-color: var(--branco);
+  border-bottom: 1px solid #ececec;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.lista-consulta__foto {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/perfil-2.jpg");
+  margin-right: 15px;
+}
+
+.lista-consulta__foto2 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/perfil-3.jpg");
+  margin-right: 15px;
+}
+.lista-consulta__foto3 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/perfil-4.jpg");
+  margin-right: 15px;
+}
+.lista-consulta__foto4 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/perfil-5.jpg");
+  margin-right: 15px;
+}
+
+.lista-consulta__infos {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: url("/img/Chatcirculo1.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 30%;
+}
+.lista-consulta__nome {
+  font-weight: 700;
+  color: var(--preto);
+  padding-bottom: 5px;
+}
+.lista-consulta__desc {
+  font-size: 12px;
+  color: var(--cinza);
+  background: url("/img/Camera.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 3px 25px;
+}
+.lista-consulta__agenda {
+  background-color: var(--branco);
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.lista-consulta__hora {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--preto);
+}
+.lista-consulta__botao {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+.lista-consulta__video {
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--laranja);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.lista-consulta__audio {
+  display: flex;
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #ececec;
+  background-color: var(--branco);
+  align-items: center;
+  justify-content: center;
+}
+.botao__video,
+.botao__audio {
+  text-decoration: none;
+  font-weight: 500;
+}
+.botao__video {
+  color: var(--branco);
+}
+.botao__audio {
+  color: var(--preto);
+}
+
+.lista-consulta__desc2 {
+  font-size: 12px;
+  color: var(--cinza);
+  background: url("/img/pin.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 3px 25px;
+}
+.lista-consulta__endereco {
+  width: 296px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--azul);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.botao__endereco {
+  font-weight: 500;
+  color: var(--branco);
+  text-decoration: none;
+}
+.lista-consulta__botao2 {
+  padding-top: 0.5rem;
+}
