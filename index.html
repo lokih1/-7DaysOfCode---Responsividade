@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#7DaysOfCode - Responsividade</title>
     <link rel="stylesheet" href="/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,9 +22,9 @@
       <div class="menu-celular">
         <p class="menu-celular__relogio">03:33</p>
         <div class="menu-celular__widget">
-        <img src="/img/signal_cellular_4_bar.svg" alt="">
-        <img src="/img/battery_full.svg" alt="">
-        <img src="/img/wifi.svg" alt="">
+          <img src="/img/signal_cellular_4_bar.svg" alt="" />
+          <img src="/img/battery_full.svg" alt="" />
+          <img src="/img/wifi.svg" alt="" />
         </div>
       </div>
       <div class="cabecalho">
@@ -255,5 +259,65 @@
         </div>
       </div>
     </section>
+    <!-- Floating button -->
+    <div class="fab-container">
+      <div class="botao__flutuante">
+        <input id="button" class="botao__principal" type="checkbox" />
+        <label for="button"></label>
+        <div class="opcao botao__camera">
+          <label class="label__camera">Nova consulta por vídeo </label>
+          <a href="#" class="icon"><img src="/img/camera fab.svg" alt="" /></a>
+        </div>
+        <div class="opcao botao__local">
+          <label class="label__local">Nova consulta na casa do paciente</label>
+          <a href="#" class="icon"
+            ><img
+              src="/img/pin fab.svg"
+              class="cor-botaoflutuante"
+              alt="icone de local"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__opcoes">
+        <div class="footer__consulta">
+          <a href="#" class="footer__consulta-link"
+            ><img
+              src="/img/Calendarioicone.png"
+              alt="icone calendario"
+            />Consulta</a
+          >
+        </div>
+        <div class="footer__cliente">
+          <a href="#" class="footer__cliente-link"
+            ><img
+              src="/img/clientes icone.svg"
+              class="cor-icone"
+              alt="icone cliente"
+            />clientes</a
+          >
+        </div>
+        <div class="footer__relatorio">
+          <a href="#" class="footer__relatorio-link"
+            ><img
+              src="/img/relatorios icone.svg"
+              class="cor-icone"
+              alt="icone relatorio"
+            />Relatórios</a
+          >
+        </div>
+        <div class="footer__menu">
+          <a href="#" class="footer__menu-link"
+            ><img
+              src="/img/menu icone.svg"
+              class="cor-icone"
+              alt="icone menu"
+            />Menu</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

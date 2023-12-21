@@ -1,6 +1,7 @@
 @import url("/style/cabecalho.css");
 @import url("/style/lista-consulta.css");
-
+@import url("/style/footer.css");
+@import url("/style/botao-flutuante.css");
 
 :root {
     --background: ghostwhite;

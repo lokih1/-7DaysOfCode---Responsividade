@@ -1,40 +1,38 @@
 .menu-celular {
-    padding: 0.5rem 1rem 0.5rem 2rem;
-    background-color: var(--branco);
-    
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  background-color: var(--branco);
 }
 
 .cabecalho {
-    padding: 1rem 2rem 2rem 2rem;
-    display: flex;
-    align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  align-items: center;
 }
-
 
 .cabecalho__perfil {
-    display: flex;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/perfil-1.jpg");
-    margin-right: 15px;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/perfil-1.jpg");
+  margin-right: 15px;
 }
 .cabecalho__titulo {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--preto);
-    height: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--preto);
+  height: 30px;
 }
 .cabecalho__desc {
-    color: var(--cinza);
+  color: var(--cinza);
 }
 .menu-celular {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .menu-celular__widget img {
-    padding: 0 0 0 0.5rem;
+  padding: 0 0 0 0.5rem;
 }
