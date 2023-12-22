@@ -161,3 +161,49 @@
 .lista-consulta__botao2 {
   padding-top: 0.5rem;
 }
+
+@media (min-width:1024px) {
+  .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
+    width: 50px;
+    height: 50px;
+  }
+  .lista-consulta__nome {
+    font-size: 16px;
+  }
+  .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
+    font-size: 13px;
+  }
+  .lista-consulta__infos {
+    background-size: 3%;
+  }
+
+  
+}
+
+@media (min-width: 1720px) {
+  .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
+    width: 80px;
+    height: 80px;
+  }
+  .lista-consulta__nome {
+    font-size: 24px;
+  }
+  .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
+    font-size: 16px;
+  }
+  .lista-consulta__endereco {
+    width: 330px;
+    height: 60px;
+
+  }
+  .lista-consulta__video, .lista-consulta__audio {
+    width: 170px;
+    height: 60px;
+  }
+  .botao__audio, .botao__endereco, .botao__video {
+    font-size: 16px;
+  }
+
+  
+}
+  

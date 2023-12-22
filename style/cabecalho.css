@@ -36,3 +36,38 @@
 .menu-celular__widget img {
   padding: 0 0 0 0.5rem;
 }
+@media (min-width: 1024px) {
+  .cabecalho__perfil {
+    width: 120px;
+    height: 120px;
+  }
+  .cabecalho__titulo {
+    font-size: 24px;
+  }
+  .cabecalho__desc {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width: 1720px) {
+  .menu-celular {
+    display: none;
+  }
+  .cabecalho {
+    padding: 2rem 2rem;
+  }
+  .cabecalho__perfil {
+    width: 180px;
+    height: 180px;
+  }
+  .cabecalho__titulo {
+    font-size: 28px;
+  }
+  .cabecalho__desc {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+}

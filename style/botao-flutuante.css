@@ -42,14 +42,12 @@
 }
 .botao__local {
   transition-delay: 0s;
-  background-color: #ff0303;
 }
 .botao__principal:checked ~ .botao__camera {
   transform: translate(0, -70px);
 }
 .botao__local {
   transition-delay: 0s;
-  background: #ff0303;
 }
 .botao__principal:checked ~ .botao__local {
   transform: translate(0, -135px);
@@ -80,3 +78,22 @@
   border-radius: 2323px;
 }
 
+@media (min-width:1024px) {
+  .botao__principal + label {
+    width: 85px;
+    height: 85px;
+    bottom: 80px;
+  }
+  .opcao {
+    bottom: 105px;
+    right: 25px;
+  }
+  .label__local {
+    font-size: 16px;
+    width: 290px;
+  }
+  .label__camera {
+    font-size: 16px;
+    width: 205px;
+  }
+}

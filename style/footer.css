@@ -16,7 +16,7 @@
 .footer__consulta {
   display: flex;
   flex-direction: column;
-  width: 5%;
+  width: 2%;
   justify-content: flex-end;
   align-items: center;
   padding: 0 2rem;
@@ -25,7 +25,7 @@
 .footer__cliente {
   display: flex;
   flex-direction: column;
-  width: 5%;
+  width: 2%;
   justify-content: flex-end;
   align-items: center;
   padding: 0 2rem;
@@ -34,7 +34,7 @@
 .footer__relatorio {
   display: flex;
   flex-direction: column;
-  width: 5%;
+  width: 2%;
   justify-content: flex-end;
   align-items: center;
   padding: 0 2rem;
@@ -43,7 +43,7 @@
 .footer__menu {
   display: flex;
   flex-direction: column;
-  width: 5%;
+  width: 2%;
   justify-content: flex-end;
   align-items: center;
   padding: 0 2rem;
@@ -68,4 +68,10 @@
 .cor-icone {
   filter: invert(68%) sepia(2%) saturate(20%) hue-rotate(336deg) brightness(97%)
     contrast(90%);
+}
+
+@media (min-width:1024px) {
+  .footer {
+    padding: 1rem 0;
+  }
 }
