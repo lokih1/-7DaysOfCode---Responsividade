@@ -1,0 +1,442 @@
+ <section class="lista-consulta">
+      <!-- LISTA DE CONSULTA HOJE -->
+      <div class="lista-consulta__hoje">
+        <h3 class="lista-consulta__titulo">Hoje</h3>
+        <div class="lista-consulta__tela">
+          <div class="lista-consulta__card">
+            <div class="lista-consulta__infos">
+              <div class="lista-consulta__foto"></div>
+              <div class="lista-consulta__contato">
+                <h3 class="lista-consulta__nome">Luciana Dias</h3>
+                <p class="lista-consulta__desc">Consulta remota</p>
+              </div>
+            </div>
+          </div>
+          <div class="lista-consulta__agenda">
+            <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+            <div class="lista-consulta__botao">
+              <p class="lista-consulta__video">
+                <a href="#" class="botao__video">Ligar por vídeo</a>
+              </p>
+              <p class="lista-consulta__audio">
+                <a href="#" class="botao__audio">Ligar por áudio</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__tela">
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto2"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Larissa Santana</h3>
+              <p class="lista-consulta__desc2">Consulta no local</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">16:00 - 17:00 - (1 hora)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__endereco">
+              <a href="#" class="botao__endereco">Ver endereço</a>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto3"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Marcos Correia</h3>
+              <p class="lista-consulta__desc">Consulta remota</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__video">
+              <a href="#" class="botao__video">Ligar por vídeo</a>
+            </p>
+            <p class="lista-consulta__audio">
+              <a href="#" class="botao__audio">Ligar por áudio</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LISTA DE CONSULTA AMANHA -->
+      <div class="lista-consulta__amanha">
+        <h3 class="lista-consulta__titulo">Amanhã</h3>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto4"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Clara Lemos</h3>
+              <p class="lista-consulta__desc2">Consulta local</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__endereco">
+              <a href="#" class="botao__endereco">Ver endereço</a>
+            </p>
+          </div>
+        </div>
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Luciana Dias</h3>
+              <p class="lista-consulta__desc">Consulta remota</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__video">
+              <a href="#" class="botao__video">Ligar por vídeo</a>
+            </p>
+            <p class="lista-consulta__audio">
+              <a href="#" class="botao__audio">Ligar por áudio</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto3"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Marcos Correia</h3>
+              <p class="lista-consulta__desc">Consulta remota</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__video">
+              <a href="#" class="botao__video">Ligar por vídeo</a>
+            </p>
+            <p class="lista-consulta__audio">
+              <a href="#" class="botao__audio">Ligar por áudio</a>
+            </p>
+          </div>
+        </div>
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto2"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Larissa Santana</h3>
+              <p class="lista-consulta__desc2">Consulta local</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__endereco">
+              <a href="#" class="botao__endereco">Ver endereço</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- LISTA DE CONSULTA QUARTA-FEIRA -->
+      <div class="lista-consulta__amanha">
+        <h3 class="lista-consulta__titulo">Amanhã</h3>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto4"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Clara Lemos</h3>
+              <p class="lista-consulta__desc2">Consulta local</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__endereco">
+              <a href="#" class="botao__endereco">Ver endereço</a>
+            </p>
+          </div>
+        </div>
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Luciana Dias</h3>
+              <p class="lista-consulta__desc">Consulta remota</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__video">
+              <a href="#" class="botao__video">Ligar por vídeo</a>
+            </p>
+            <p class="lista-consulta__audio">
+              <a href="#" class="botao__audio">Ligar por áudio</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto3"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Marcos Correia</h3>
+              <p class="lista-consulta__desc">Consulta remota</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__video">
+              <a href="#" class="botao__video">Ligar por vídeo</a>
+            </p>
+            <p class="lista-consulta__audio">
+              <a href="#" class="botao__audio">Ligar por áudio</a>
+            </p>
+          </div>
+        </div>
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__infos">
+            <div class="lista-consulta__foto2"></div>
+            <div class="lista-consulta__contato">
+              <h3 class="lista-consulta__nome">Larissa Santana</h3>
+              <p class="lista-consulta__desc2">Consulta local</p>
+            </div>
+          </div>
+        </div>
+        <div class="lista-consulta__agenda">
+          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+          <div class="lista-consulta__botao">
+            <p class="lista-consulta__endereco">
+              <a href="#" class="botao__endereco">Ver endereço</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- CSS -->
+    .lista-consulta {
+        padding: 0 2.1rem;
+      }
+      .lista-consulta__hoje {
+        margin-bottom: 1rem;
+      }
+      .lista-consulta__amanha {
+        margin-bottom: 1rem;
+      }
+      
+      .lista-consulta__titulo {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--preto);
+        margin-bottom: 1rem;
+      }
+      .lista-consulta__card {
+        background-color: var(--branco);
+        border-bottom: 1px solid #ececec;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .lista-consulta__foto {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url("/img/perfil-2.jpg");
+        margin-right: 15px;
+      }
+      
+      .lista-consulta__foto2 {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url("/img/perfil-3.jpg");
+        margin-right: 15px;
+      }
+      .lista-consulta__foto3 {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url("/img/perfil-4.jpg");
+        margin-right: 15px;
+      }
+      .lista-consulta__foto4 {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url("/img/perfil-5.jpg");
+        margin-right: 15px;
+      }
+      
+      .lista-consulta__infos {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1rem;
+        background: url("/img/Chatcirculo1.svg");
+        background-repeat: no-repeat;
+        background-position: 95% 30%;
+      }
+      .lista-consulta__nome {
+        font-weight: 700;
+        color: var(--preto);
+        padding-bottom: 5px;
+      }
+      .lista-consulta__desc {
+        font-size: 12px;
+        color: var(--cinza);
+        background: url("/img/Camera.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 3px 25px;
+      }
+      .lista-consulta__agenda {
+        background-color: var(--branco);
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .lista-consulta__hora {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--preto);
+      }
+      .lista-consulta__botao {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding-top: 0.5rem;
+      }
+      .lista-consulta__video {
+        width: 139px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: var(--laranja);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .lista-consulta__audio {
+        display: flex;
+        width: 139px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid #ececec;
+        background-color: var(--branco);
+        align-items: center;
+        justify-content: center;
+      }
+      .botao__video,
+      .botao__audio {
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .botao__video {
+        color: var(--branco);
+      }
+      .botao__audio {
+        color: var(--preto);
+      }
+      
+      .lista-consulta__desc2 {
+        font-size: 12px;
+        color: var(--cinza);
+        background: url("/img/pin.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 3px 25px;
+      }
+      .lista-consulta__endereco {
+        width: 296px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: var(--azul);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .botao__endereco {
+        font-weight: 500;
+        color: var(--branco);
+        text-decoration: none;
+      }
+      .lista-consulta__botao2 {
+        padding-top: 0.5rem;
+      }
+      
+      @media (min-width:1024px) {
+        .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
+          width: 50px;
+          height: 50px;
+        }
+        .lista-consulta__nome {
+          font-size: 16px;
+        }
+        .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
+          font-size: 13px;
+        }
+        .lista-consulta__infos {
+          background-size: 3%;
+        }
+      .lista-consulta__tela {
+        
+      }
+        
+      }
+      
+      @media (min-width: 1720px) {
+        .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
+          width: 80px;
+          height: 80px;
+        }
+        .lista-consulta__nome {
+          font-size: 24px;
+        }
+        .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
+          font-size: 16px;
+        }
+        .lista-consulta__endereco {
+          width: 330px;
+          height: 60px;
+      
+        }
+        .lista-consulta__video, .lista-consulta__audio {
+          width: 170px;
+          height: 60px;
+        }
+        .botao__audio, .botao__endereco, .botao__video {
+          font-size: 16px;
+        }
+      
+        
+      }

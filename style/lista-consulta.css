@@ -1,209 +1,138 @@
 .lista-consulta {
-  padding: 0 2.1rem;
+  padding: 0 1rem;
+  margin: 0 2rem;
 }
-.lista-consulta__hoje {
-  margin-bottom: 1rem;
-}
-.lista-consulta__amanha {
-  margin-bottom: 1rem;
-}
-
-.lista-consulta__titulo {
+.lista-consulta__data {
   font-size: 16px;
   font-weight: 700;
-  color: var(--preto);
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .lista-consulta__card {
   background-color: var(--branco);
-  border-bottom: 1px solid #ececec;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-.lista-consulta__foto {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("/img/perfil-2.jpg");
-  margin-right: 15px;
-}
-
-.lista-consulta__foto2 {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("/img/perfil-3.jpg");
-  margin-right: 15px;
-}
-.lista-consulta__foto3 {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("/img/perfil-4.jpg");
-  margin-right: 15px;
-}
-.lista-consulta__foto4 {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("/img/perfil-5.jpg");
-  margin-right: 15px;
-}
-
-.lista-consulta__infos {
-  display: flex;
-  align-items: center;
-  padding: 1rem 1rem;
-  background: url("/img/Chatcirculo1.svg");
-  background-repeat: no-repeat;
-  background-position: 95% 30%;
-}
-.lista-consulta__nome {
-  font-weight: 700;
-  color: var(--preto);
-  padding-bottom: 5px;
-}
-.lista-consulta__desc {
-  font-size: 12px;
-  color: var(--cinza);
-  background: url("/img/Camera.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-  padding: 3px 25px;
-}
-.lista-consulta__agenda {
-  background-color: var(--branco);
-  padding: 1rem 1rem;
+  border-radius: 8px;
   margin-bottom: 1rem;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+}
+
+.lista-consulta__perfil {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.lista-consulta__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.lista-consulta__pessoa {
+  display: flex;
+}
+.lista-consulta__topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.5rem 1rem;
 }
 .lista-consulta__hora {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--preto);
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.lista-consulta__botao {
+.lista-consulta__btn {
   display: flex;
-  justify-content: flex-start;
-  gap: 1rem;
-  padding-top: 0.5rem;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem;
 }
-.lista-consulta__video {
-  width: 139px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: var(--laranja);
-  align-items: center;
-  justify-content: center;
-  display: flex;
+.lista-consulta__img {
+  width: 35px;
+  cursor: pointer;
 }
-.lista-consulta__audio {
-  display: flex;
-  width: 139px;
-  height: 48px;
-  border-radius: 8px;
-  border: 1px solid #ececec;
-  background-color: var(--branco);
-  align-items: center;
-  justify-content: center;
+.btn-chat {
+  padding: 0;
+  border-radius: 30px;
+  height: 35px;
+  border: none;
 }
-.botao__video,
-.botao__audio {
-  text-decoration: none;
-  font-weight: 500;
+.lista-consulta__nome {
+  font-weight: 700;
 }
-.botao__video {
-  color: var(--branco);
-}
-.botao__audio {
-  color: var(--preto);
-}
-
-.lista-consulta__desc2 {
+.lista-consulta__desc {
   font-size: 12px;
+  font-weight: 400;
   color: var(--cinza);
-  background: url("/img/pin.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-  padding: 3px 25px;
+  padding-left: 5px;
 }
-.lista-consulta__endereco {
-  width: 296px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: var(--azul);
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.botao__endereco {
-  font-weight: 500;
-  color: var(--branco);
-  text-decoration: none;
-}
-.lista-consulta__botao2 {
+.img-pos {
   padding-top: 0.5rem;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.barra-cinza {
+  height: 1px;
+  background-color: #ececec;
+  border: none;
+}
+.btn-video,
+.btn-audio {
+  width: 155px;
+  height: 54px;
+  border-radius: 8px;
+}
+.btn-video {
+  color: var(--branco);
+  background: var(--laranja);
+  border: none;
+  cursor: pointer;
+}
+.btn-audio {
+  color: var(--preto);
+  background: var(--branco);
+  border: 1px solid #ececec;
+  cursor: pointer;
+}
+.btn-endereco {
+  color: var(--branco);
+  background: var(--azul);
+  border: none;
+  cursor: pointer;
+  width: 325px;
+  height: 50px;
+  border-radius: 8px;
+}
+button {
+  font-family: var(--fonte-principal);
 }
 
-@media (min-width:1024px) {
-  .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
-    width: 50px;
-    height: 50px;
-  }
-  .lista-consulta__nome {
-    font-size: 16px;
-  }
-  .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
-    font-size: 13px;
-  }
-  .lista-consulta__infos {
-    background-size: 3%;
-  }
+@media (min-width:768px) {
+  .lista-consulta__dia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 
+
+  }
+  .lista-consulta__card {
+    margin: 1vw 1vw 2vw 2vw;
+    width: 40vw;
+  }
+  .lista-consulta__data {
+    padding-left: 2vw;
+  }
   
 }
+@media (min-width:1280px) {
+  .lista-consulta__dia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 
-@media (min-width: 1720px) {
-  .lista-consulta__foto, .lista-consulta__foto2, .lista-consulta__foto3, .lista-consulta__foto4 {
-    width: 80px;
-    height: 80px;
-  }
-  .lista-consulta__nome {
-    font-size: 24px;
-  }
-  .lista-consulta__desc, .lista-consulta__desc2, .lista-consulta__hora {
-    font-size: 16px;
-  }
-  .lista-consulta__endereco {
-    width: 330px;
-    height: 60px;
 
   }
-  .lista-consulta__video, .lista-consulta__audio {
-    width: 170px;
-    height: 60px;
+  .lista-consulta__card {
+    margin: 1vw 1vw 2vw 2vw;
+    width: 25vw;
   }
-  .botao__audio, .botao__endereco, .botao__video {
-    font-size: 16px;
+  .lista-consulta__data {
+    padding-left: 2vw;
   }
-
-  
 }
-  

@@ -18,15 +18,7 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <header class="menu">
-      <div class="menu-celular">
-        <p class="menu-celular__relogio">03:33</p>
-        <div class="menu-celular__widget">
-          <img src="/img/signal_cellular_4_bar.svg" alt="" />
-          <img src="/img/battery_full.svg" alt="" />
-          <img src="/img/wifi.svg" alt="" />
-        </div>
-      </div>
+    <header>
       <div class="cabecalho">
         <div class="cabecalho__perfil"></div>
         <div class="cabecalho__info">
@@ -35,230 +27,412 @@
         </div>
       </div>
     </header>
+
+    <!-- Lista de consulta HOJE -->
     <section class="lista-consulta">
-      <!-- LISTA DE CONSULTA HOJE -->
-      <div class="lista-consulta__hoje">
-        <h3 class="lista-consulta__titulo">Hoje</h3>
+      <h3 class="lista-consulta__data">Hoje</h3>
+      <div class="lista-consulta__dia">
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Luciana Dias</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-2.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Luciana Dias</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
-          </div>
-        </div>
+
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto2"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Larissa Santana</h3>
-              <p class="lista-consulta__desc2">Consulta no local</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-3.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Larissa Santana</p>
+                <div class="img-pos">
+                  <img src="/img/pin.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta no local</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">16:00 - 17:00 - (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-endereco">Ver endereço</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">16:00 - 17:00 - (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__endereco">
-              <a href="#" class="botao__endereco">Ver endereço</a>
-            </p>
-          </div>
-        </div>
+
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto3"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Marcos Correia</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-4.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Marcos Correia</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-        </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- LISTA DE CONSULTA AMANHA -->
-      <div class="lista-consulta__amanha">
-        <h3 class="lista-consulta__titulo">Amanhã</h3>
-
+      <!-- LISTA DE AMANHA -->
+      <h3 class="lista-consulta__data">Amanhã</h3>
+      <div class="lista-consulta__dia">
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto4"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Clara Lemos</h3>
-              <p class="lista-consulta__desc2">Consulta local</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-5.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Clara Lemos</p>
+                <div class="img-pos">
+                  <img src="/img/pin.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta no local</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-        </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__endereco">
-              <a href="#" class="botao__endereco">Ver endereço</a>
-            </p>
-          </div>
-        </div>
-        <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Luciana Dias</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-endereco">Ver endereço</button>
             </div>
-          </div>
-        </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
           </div>
         </div>
 
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto3"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Marcos Correia</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-2.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Luciana Dias</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
-          </div>
-        </div>
+
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto2"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Larissa Santana</h3>
-              <p class="lista-consulta__desc2">Consulta local</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-4.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Marcos Correia</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__endereco">
-              <a href="#" class="botao__endereco">Ver endereço</a>
-            </p>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-3.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Larissa Santana</p>
+                <div class="img-pos">
+                  <img src="/img/pin.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta no local</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">16:00 - 17:00 - (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-endereco">Ver endereço</button>
+            </div>
           </div>
         </div>
       </div>
-      <!-- LISTA DE CONSULTA QUARTA-FEIRA -->
-      <div class="lista-consulta__amanha">
-        <h3 class="lista-consulta__titulo">Amanhã</h3>
 
+      <!-- Lista Quarta feira  -->
+      <h3 class="lista-consulta__data">Quarta-feira</h3>
+      <div class="lista-consulta__dia">
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto4"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Clara Lemos</h3>
-              <p class="lista-consulta__desc2">Consulta local</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-5.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Clara Lemos</p>
+                <div class="img-pos">
+                  <img src="/img/pin.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta no local</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-        </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__endereco">
-              <a href="#" class="botao__endereco">Ver endereço</a>
-            </p>
-          </div>
-        </div>
-        <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Luciana Dias</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">18:00 - 19:00 - (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-endereco">Ver endereço</button>
             </div>
-          </div>
-        </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
           </div>
         </div>
 
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto3"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Marcos Correia</h3>
-              <p class="lista-consulta__desc">Consulta remota</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-2.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Luciana Dias</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">14:00 - 15:00 (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__video">
-              <a href="#" class="botao__video">Ligar por vídeo</a>
-            </p>
-            <p class="lista-consulta__audio">
-              <a href="#" class="botao__audio">Ligar por áudio</a>
-            </p>
-          </div>
-        </div>
+
         <div class="lista-consulta__card">
-          <div class="lista-consulta__infos">
-            <div class="lista-consulta__foto2"></div>
-            <div class="lista-consulta__contato">
-              <h3 class="lista-consulta__nome">Larissa Santana</h3>
-              <p class="lista-consulta__desc2">Consulta local</p>
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-4.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Marcos Correia</p>
+                <div class="img-pos">
+                  <img src="/img/Camera.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta remota</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-video">Ligar por vídeo</button>
+              <button class="btn-audio">Ligar por áudio</button>
             </div>
           </div>
         </div>
-        <div class="lista-consulta__agenda">
-          <p class="lista-consulta__hora">17:20 - 18:00 (40 minutos)</p>
-          <div class="lista-consulta__botao">
-            <p class="lista-consulta__endereco">
-              <a href="#" class="botao__endereco">Ver endereço</a>
-            </p>
+
+        <div class="lista-consulta__card">
+          <div class="lista-consulta__topo">
+            <div class="lista-consulta__pessoa">
+              <img
+                class="lista-consulta__perfil"
+                src="/img/perfil-3.jpg"
+                alt=""
+              />
+              <div class="lista-consulta__info">
+                <p class="lista-consulta__nome">Larissa Santana</p>
+                <div class="img-pos">
+                  <img src="/img/pin.svg" alt="" />
+                  <p class="lista-consulta__desc">Consulta no local</p>
+                </div>
+              </div>
+            </div>
+            <div class="lista-consulta__chat">
+              <button class="btn-chat">
+                <img
+                  class="lista-consulta__img"
+                  src="/img/Chatcirculo1.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <hr class="barra-cinza" />
+          <div class="lista-consulta__baixo">
+            <p class="lista-consulta__hora">16:00 - 17:00 - (1 hora)</p>
+            <div class="lista-consulta__btn">
+              <button class="btn-endereco">Ver endereço</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Floating button -->
     <div class="fab-container">
       <div class="botao__flutuante">
@@ -279,7 +453,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer__opcoes">
         <div class="footer__consulta">

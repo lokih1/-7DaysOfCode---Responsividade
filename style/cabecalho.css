@@ -36,7 +36,7 @@
 .menu-celular__widget img {
   padding: 0 0 0 0.5rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .cabecalho__perfil {
     width: 120px;
     height: 120px;
@@ -51,7 +51,7 @@
 
 }
 
-@media (min-width: 1720px) {
+@media (min-width: 1280px) {
   .menu-celular {
     display: none;
   }

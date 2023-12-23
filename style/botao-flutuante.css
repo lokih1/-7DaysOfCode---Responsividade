@@ -78,7 +78,7 @@
   border-radius: 2323px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
   .botao__principal + label {
     width: 85px;
     height: 85px;

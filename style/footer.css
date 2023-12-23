@@ -11,7 +11,8 @@
 }
 .footer__opcoes {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 1rem;
 }
 .footer__consulta {
   display: flex;
