@@ -18,7 +18,52 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <header>
+    <header class="barra-menu">
+      <div class="barra-menu__opcoes">
+        <div class="barra-menu__consulta">
+          <a href="#" class="barra-menu__consulta-link"
+            ><img
+              src="/img/Calendarioicone.png"
+              alt="icone calendario"
+              class="icone-menu__consulta"
+            />
+            <p class="barra-menu__texto">Consultas</p></a
+          >
+        </div>
+        <div class="barra-menu__cliente">
+          <a href="#" class="barra-menu__cliente-link"
+            ><img
+              src="/img/clientes icone.svg"
+              class="cor-icone icone-menu__cliente"
+              alt="icone cliente"
+            />
+            <p class="barra-menu__texto">Clientes</p></a
+          >
+        </div>
+        <div class="barra-menu__relatorio">
+          <a href="#" class="barra-menu__relatorio-link"
+            ><img
+              src="/img/relatorios icone.svg"
+              class="cor-icone icone-menu__relatorio"
+              alt="icone relatorio"
+            />
+            <p class="barra-menu__texto">Relatórios</p></a
+          >
+        </div>
+        <div class="barra-menu__menu">
+          <a href="#" class="barra-menu__menu-link"
+            ><img
+              src="/img/menu icone.svg"
+              class="cor-icone icone-menu__barra"
+              alt="icone menu"
+            />
+            <p class="barra-menu__texto">Menu</p></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="cabecalho-perfil">
       <div class="cabecalho">
         <div class="cabecalho__perfil"></div>
         <div class="cabecalho__info">
@@ -26,8 +71,7 @@
           <p class="cabecalho__desc">Mais 4 consultas hoje</p>
         </div>
       </div>
-    </header>
-
+    </section>
     <!-- Lista de consulta HOJE -->
     <section class="lista-consulta">
       <h3 class="lista-consulta__data">Hoje</h3>

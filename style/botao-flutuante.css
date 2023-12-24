@@ -46,11 +46,11 @@
 .botao__principal:checked ~ .botao__camera {
   transform: translate(0, -70px);
 }
-.botao__local {
-  transition-delay: 0s;
-}
 .botao__principal:checked ~ .botao__local {
   transform: translate(0, -135px);
+}
+.botao__local {
+  transition-delay: 0s;
 }
 
 .label__camera {
@@ -96,4 +96,35 @@
     font-size: 16px;
     width: 205px;
   }
+}
+@media (min-width:1280px) {
+  .botao__principal + label {
+    width: 85px;
+    height: 85px;
+    bottom: 10px;
+  }
+  .opcao {
+    bottom: 40px;
+    right: 25px;
+  }
+  .label__local {
+    font-size: 16px;
+    width: 290px;
+  }
+  .label__camera {
+    font-size: 16px;
+    width: 205px;
+  }
+.botao__camera, .botao__local {
+  display: none;
+}
+.botao__principal:checked ~ .botao__camera {
+  transform: translate(0, -70px);
+  display: block;
+}
+.botao__principal:checked ~ .botao__local {
+  transform: translate(0, -135px);
+  display: block;
+}
+
 }
