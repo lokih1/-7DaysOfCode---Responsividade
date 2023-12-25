@@ -2,20 +2,21 @@
 @import url("/style/lista-consulta.css");
 @import url("/style/footer.css");
 @import url("/style/botao-flutuante.css");
+@import url("/style/formulario-cadastro.css");
 
 :root {
-    --background: ghostwhite;
-    --preto: #464646;
-    --cinza: #A3A3A3;
-    --branco: #FFFFFF;
-    --azul: #4894FF;
-    --laranja: #FFB050;
-    --fonte-principal: "Montserrat";
+  --background: ghostwhite;
+  --preto: #464646;
+  --cinza: #a3a3a3;
+  --branco: #ffffff;
+  --azul: #4894ff;
+  --laranja: #ffb050;
+  --fonte-principal: "Montserrat";
 }
 
 body {
-    background-color: var(--background);
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    font-size: 14px;
+  background-color: var(--background);
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 14px;
 }

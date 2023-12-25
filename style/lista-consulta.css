@@ -103,13 +103,11 @@ button {
   font-family: var(--fonte-principal);
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .lista-consulta__dia {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-
-
   }
   .lista-consulta__card {
     margin: 1vw 1vw 2vw 2vw;
@@ -118,9 +116,8 @@ button {
   .lista-consulta__data {
     padding-left: 2vw;
   }
-  
 }
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .lista-consulta {
     width: 80%;
     margin: 0 12vw;
@@ -129,12 +126,10 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-
-
   }
   .lista-consulta__card {
     margin: 1vw 1vw 2vw 1vw;
-    width: 23vw;  
+    width: 23vw;
   }
   .lista-consulta__data {
     padding-left: 2vw;

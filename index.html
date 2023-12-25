@@ -477,6 +477,57 @@
       </div>
     </section>
 
+    <!-- Formulario cadastro de consulta -->
+    <section class="formulario-consulta">
+      <div class="formulario-consulta__titulo">
+        <h2 class="formulario-titulo">Cadastro de consulta</h2>
+      </div>
+      <div class="formulario-cadastro">
+        <form class="forms">
+          <div class="formulario-cadastro__nome">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome completo" required />
+          </div>
+
+          <div class="formulario-cadastro__radio">
+            <input
+              class="input-radio"
+              id="radio-1"
+              name="radio"
+              type="radio"
+              checked
+            />
+            <label for="radio-1" class="radio-label">
+              <div class="radio-btn"></div>
+              <span class="nome-radio1">Consulta remota</span>
+            </label>
+
+            <input class="input-radio" id="radio-2" name="radio" type="radio" />
+            <label for="radio-2" class="radio-label">
+              <div class="radio-btn"></div>
+              <span class="nome-radio2">Consulta local</span>
+            </label>
+          </div>
+
+          <div class="formulario-cadastro__data">
+            <label for="data">Data da consulta</label>
+            <input type="date" id="data" placeholder="" required />
+          </div>
+          <div class="formulario-cadastro__hora">
+            <label for="hora">Horario da consulta</label>
+            <input type="time" id="hora" placeholder="" value="08:00" required />
+          </div>
+          <div class="formulario-cadastro__obs">
+            <label>Observações</label>
+            <textarea class="formulario-obs" placeholder="Digite aqui"></textarea>
+          </div>
+          <div class="formulario-agendamento">
+          <button class="agenda-btn">Agendar consulta</button>
+        </div>
+        </form>
+      </div>
+    </section>
+
     <!-- Floating button -->
     <div class="fab-container">
       <div class="botao__flutuante">
