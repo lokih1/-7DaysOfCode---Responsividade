@@ -71,12 +71,12 @@
     contrast(90%);
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .footer {
     padding: 1rem 0;
   }
 }
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .footer {
     display: none;
   }
